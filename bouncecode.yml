@@ -25,14 +25,53 @@ exercises:
                 cmd:
                     - javascripting -l ko
                     - javascripting select introduction
+                    - bash
                 guide: |
-                    편집기에서 introduction.js 파일을 열고 다음 내용을 넣으세요.
+                    정돈을 위해 이 워크숍을 위한 폴더를 만듭시다.
 
-                    ```javascript
-                    console.log('hello');  
+                    ```bash
+                    mkdir javascripting
                     ```
 
-                    파일을 저장하고 프로그램이 올바른지 실행해 확인하세요.
+                    위 명령어를 실행해 `javascripting`이라는 디렉터리(다른 이름이어도 됩니다)를 만드세요.
+
+                    ```bash
+                    cd javascripting
+                    ```
+
+                    을 통해 `javascripting` 폴더 안으로 디렉터리를 변경하세요.
+
+                    ```bash
+                    touch introduction.js
+                    ```
+
+                    를 입력해 `introduction.js`이라는 파일을 만드세요.
+
+                    윈도우라면
+
+                    ```bash
+                    type NUL > introduction.js
+                    ```
+
+                    (`type`도 명령어의 일부입니다!)로 만들 수 있습니다.
+
+                    좋아하는 편집기에서 파일을 열고 다음 내용을 넣으세요.
+
+                    ```js
+                    console.log('hello');
+                    ```
+
+                    파일을 저장하고 프로그램이 올바른지 다음 명령어를 실행해 확인하세요.
+
+                    ```bash
+                    javascripting verify introduction.js
+                    ```
+
+                    하지만 튜토리얼 내내 편한 이름을 사용하셔도 됩니다. 모든 연습 문제에 `catsAreAwesome.js` 같은 이름을 사용하시고 싶다면, 그럴 수 있습니다. 그냥 다음 명령어를 실행해 확인하세요.
+
+                    ```bash
+                    javascripting verify catsAreAwesome.js
+                    ```
             -
                 subject: 변수
                 active:
@@ -46,43 +85,241 @@ exercises:
                 cmd:
                     - javascripting -l ko
                     - javascripting select variables
+                    - bash
                 guide: |
-                    변수는 특정 값을 참조하는 이름입니다. 변수는 var와 변수의 이름으로  
-                    선언합니다.  
+                    변수는 특정 값을 참조하는 이름입니다. 변수는 `var`와 변수의 이름으로 선언합니다.
 
-                    예제를 보세요.  
-                    
-                    ```javascript
+                    예제를 보세요.
+
+                    ```js
                     var example;
                     ```
 
-                    위 변수는 *선언*되었지만, 정의되지는 않았습니다.(아직 특정 값을 참조하지  
-                    않았습니다.)  
+                    위 변수는 **선언**되었지만, 정의되지는 않았습니다.(아직 특정 값을 참조하지 않았습니다.)
 
-                    특정 값을 참조하게 만든, 변수를 정의하는 예제입니다.  
+                    특정 값을 참조하게 만든, 변수를 정의하는 예제입니다.
 
-                    ```javascript
+                    ```js
                     var example = 'some string';
                     ```
 
-                    ## 주의  
+                    # 주의
 
-                    변수는 `var`를 사용해 *선언*하고 등호(`=`)를 이용해 참조하는 값을 넣어  
-                    *정의*합니다. "변수는 값과 같게 만든다."라고 읽을 수 있습니다.  
+                    변수는 `var`를 사용해 **선언**하고 등호(`=`)를 이용해 참조하는 값을 넣어 **정의**합니다. "변수는 값과 같게 만든다."라고 읽을 수 있습니다.
 
-                    ### 도전 과제  
+                    ## 도전 과제
 
-                    `variables.js` 파일 안에서 `example`라는 변수를 선언합니다.  
+                    `variables.js`라는 파일을 만듭니다.
 
-                    *`example` 변수를 `'some string'` 값과 같게 만듭니다. Make the variable example  
-                    equal to the value 'some string'.*
+                    그 파일 안에서 `example`라는 변수를 선언합니다.
 
-                    그리고 `console.log()`로 `example` 변수를 콘솔에 출력합니다.  
+                    **`example` 변수를 `'some string'` 값과 같게 만듭니다.**
+                    **Make the variable `example` equal to the value `'some string'`.**
 
-                    이 명령어를 실행해 프로그램이 올바른지 확인하세요.  
-                    
-                    ```javascript
-                    javascripting verify variables.js
+                    그리고 `console.log()`로 `example` 변수를 콘솔에 출력합니다.
+
+                    이 명령어를 실행해 프로그램이 올바른지 확인하세요.
+
+                    `javascripting verify variables.js`
+            -
+                subject: 문자열
+                active:
+                    - strings.js
+                run:
+                    - javascripting select strings
+                    - javascripting run strings.js
+                test:
+                    - javascripting select strings
+                    - javascripting verify strings.js
+                cmd:
+                    - javascripting -l ko
+                    - javascripting select strings
+                    - bash
+                guide: |
+                    **문자열**은 따옴표로 감싸진 값입니다.
+
+                    이는 작은따옴표도 될 수 있고 큰따옴표도 될 수 있습니다.
+
+                    ```js
+                    'this is a string'
+
+                    "this is also a string"
                     ```
 
+                    ## 주의
 
+                    일관성을 유지하도록 노력해보세요. 이 워크숍에서는 작은따옴표만 사용하도록 하겠습니다.
+
+                    ## 도전 과제
+
+                    이 과제를 위해 `strings.js`라는 파일을 만드세요.
+
+                    그 파일 안에서 `someString`이라는 변수를 만드세요. 이렇게 하면 됩니다.
+
+                    ```js
+                    var someString = 'this is a string';
+                    ```
+
+                    `console.log`를 사용해 **someString** 변수를 터미널에 출력합니다.
+
+                    이 명령어를 실행해 프로그램이 올바른지 확인하세요.
+
+                    `javascripting verify strings.js`
+            -
+                subject: 문자열 길이
+                active:
+                    - string-length.js
+                run:
+                    - javascripting select string-length
+                    - javascripting run string-length.js
+                test:
+                    - javascripting select string-length
+                    - javascripting verify string-length.js
+                cmd:
+                    - javascripting -l ko
+                    - javascripting select string-length
+                    - bash
+                guide: |
+                    문자열에 얼마나 많은 문자가 있는지 알아야 할 때가 자주 있을 겁니다.
+
+                    이는 `.length` 속성을 이용하면 알 수 있습니다. 다음 예제를 보세요.
+
+                    ```js
+                    var example = 'example string';
+                    example.length
+                    ```
+
+                    ## 주의
+
+                    `example`과 `length` 사이에 마침표가 있는 것을 확인하세요.
+
+                    위의 코드는 문자열 안에 있는 전체 문자의 **수**를 반환합니다.
+
+                    ## 도전 과제
+
+                    `string-length.js`라는 파일을 만듭니다.
+
+                    이 파일 안에서 `example`이라는 변수를 선언합니다.
+
+                    **`example` 변수에 `'example string'` 문자열을 대입합니다.**
+
+                    `console.log`를 이용해 문자열의 **길이**를 터미널에 출력하세요.
+
+                    **이 명령어를 실행해 프로그램이 올바른지 확인하세요.**
+
+                    `javascripting verify string-length.js`
+            -
+                subject: 문자열 뒤집기
+                active:
+                    - revising-strings.js
+                run:
+                    - javascripting select revising-strings
+                    - javascripting run revising-strings.js
+                test:
+                    - javascripting select revising-strings
+                    - javascripting verify revising-strings.js
+                cmd:
+                    - javascripting -l ko
+                    - javascripting select revising-strings
+                    - bash
+                guide: |
+                    문자열의 내용을 바꿀 경우가 종종 생깁니다.
+
+                    문자열은 내용을 조작하고 살펴보는 내장 기능을 가지고 있습니다.
+
+                    `.replace()` 메소드를 사용하는 예제입니다.
+
+                    ```js
+                    var example = 'this example exists';
+                    example = example.replace('exists', 'is awesome');
+                    console.log(example);
+                    ```
+
+                    `example` 변수가 참조하는 값을 바꾸는 것에 주의하세요. 등호를 다시 사용해야 합니다. 이번에는 `example.replace()` 메소드를 등호의 오른편에 두었습니다.
+
+                    ## 도전 과제
+
+                    `revising-strings.js`라는 파일을 만드세요.
+
+                    `'pizza is alright'` 문자열을 참조하는 `pizza`라는 변수를 정의합니다.
+
+                    `.replace()` 메소드를 사용해 `alright`을 `wonderful`로 바꿉니다.
+
+                    `console.log()`를 사용해 `.replace()` 메소드의 결과를 터미널에 출력합니다.
+
+                    이 명령어를 실행해 프로그램이 올바른지 확인하세요.
+
+                    `javascripting verify revising-strings.js`
+            -
+                subject: 숫자
+                active:
+                    - numbers.js
+                run:
+                    - javascripting select numbers
+                    - javascripting run numbers.js
+                test:
+                    - javascripting select numbers
+                    - javascripting verify numbers.js
+                cmd:
+                    - javascripting -l ko
+                    - javascripting select numbers
+                    - bash
+                guide: |
+                    숫자는  `2`, `14`, `4353` 같은 정수이거나 십진수이거나 `3.14`, `1.5`, `100.7893423` 같은 실수일 수 있습니다.
+                    문자열과 다르게 숫자는 따옴표로 감쌀 필요가 없습니다.
+
+                    ## 도전 과제
+
+                    `numbers.js`라는 파일을 만드세요.
+
+                    그 파일 안에서 정수 `123456789`를 참조하는 `example`이라는 변수를 선언하세요.
+
+                    `console.log()`를 사용해 숫자를 터미널에 출력하세요.
+
+                    이 명령어를 실행해 프로그램이 올바른지 확인하세요.
+
+                    `javascripting verify numbers.js`
+            -
+                subject: 숫자 반올림
+                active:
+                    - rounding-numbers.js
+                run:
+                    - javascripting select rounding-numbers
+                    - javascripting run rounding-numbers.js
+                test:
+                    - javascripting select rounding-numbers
+                    - javascripting verify rounding-numbers.js
+                cmd:
+                    - javascripting -l ko
+                    - javascripting select rounding-numbers
+                    - bash
+                guide: |
+                    `+`, `-`, `*`, `/`, `%` 같은 익숙한 연산자를 사용해 기본적인 연산을 할 수 있습니다.
+
+                    더 복잡한 연산은 `Math` 객체를 사용해 할 수 있습니다.
+
+                    이 과제에서는 `Math`를 사용해 숫자를 반올림 해보겠습니다.
+
+                    ## 도전 과제
+
+                    `rounding-numbers.js`라는 파일을 만듭니다.
+
+                    이 파일 안에서 실수 `1.5`를 참조하는 `roundUp`라는 변수를 선언합니다.
+
+                    `Math.round()` 메소드를 이용해 숫자를 반올림합니다. 이 메소드는 숫자를 가까운 정수로 올리거나 내립니다.
+
+                    `Math.round()`을 사용하는 예입니다.
+
+                    ```js
+                    Math.round(0.5);
+                    ```
+
+                    `roundUp` 변수를 인자로 `Math.round()` 메소드에 넘긴 결과를 참조하는 `rounded`라는 두 번째 변수를 정의합니다.
+
+                    `console.log()`를 사용해 숫자를 터미널에 출력합니다.
+
+                    이 명령어를 실행해 프로그램이 올바른지 확인하세요.
+
+                    ```bash
+                    javascripting verify rounding-numbers.js
+                    ```
