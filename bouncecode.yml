@@ -170,14 +170,14 @@ exercises:
                 active:
                     - string-length.js
                 run:
-                    - javascripting select string-length
+                    - javascripting select string_length
                     - javascripting run string-length.js
                 test:
-                    - javascripting select string-length
+                    - javascripting select string_length
                     - javascripting verify string-length.js
                 cmd:
                     - javascripting -l ko
-                    - javascripting select string-length
+                    - javascripting select string_length
                     - bash
                 guide: |
                     문자열에 얼마나 많은 문자가 있는지 알아야 할 때가 자주 있을 겁니다.
@@ -213,14 +213,14 @@ exercises:
                 active:
                     - revising-strings.js
                 run:
-                    - javascripting select revising-strings
+                    - javascripting select revising_strings
                     - javascripting run revising-strings.js
                 test:
-                    - javascripting select revising-strings
+                    - javascripting select revising_strings
                     - javascripting verify revising-strings.js
                 cmd:
                     - javascripting -l ko
-                    - javascripting select revising-strings
+                    - javascripting select revising_strings
                     - bash
                 guide: |
                     문자열의 내용을 바꿀 경우가 종종 생깁니다.
@@ -284,14 +284,14 @@ exercises:
                 active:
                     - rounding-numbers.js
                 run:
-                    - javascripting select rounding-numbers
+                    - javascripting select rounding_numbers
                     - javascripting run rounding-numbers.js
                 test:
-                    - javascripting select rounding-numbers
+                    - javascripting select rounding_numbers
                     - javascripting verify rounding-numbers.js
                 cmd:
                     - javascripting -l ko
-                    - javascripting select rounding-numbers
+                    - javascripting select rounding_numbers
                     - bash
                 guide: |
                     `+`, `-`, `*`, `/`, `%` 같은 익숙한 연산자를 사용해 기본적인 연산을 할 수 있습니다.
