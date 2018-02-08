@@ -23,6 +23,7 @@ exercises:
                     - javascripting select introduction
                     - javascripting verify introduction.js
                 cmd:
+                    - touch introduction.js
                     - javascripting -l ko
                     - javascripting select introduction
                     - bash
@@ -83,6 +84,7 @@ exercises:
                     - javascripting select variables
                     - javascripting verify variables.js
                 cmd:
+                    - touch variables.js
                     - javascripting -l ko
                     - javascripting select variables
                     - bash
@@ -132,6 +134,7 @@ exercises:
                     - javascripting select strings
                     - javascripting verify strings.js
                 cmd:
+                    - touch strings.js
                     - javascripting -l ko
                     - javascripting select strings
                     - bash
@@ -176,6 +179,7 @@ exercises:
                     - javascripting select string_length
                     - javascripting verify string-length.js
                 cmd:
+                    - touch string_length.js
                     - javascripting -l ko
                     - javascripting select string_length
                     - bash
@@ -219,6 +223,7 @@ exercises:
                     - javascripting select revising_strings
                     - javascripting verify revising-strings.js
                 cmd:
+                    - touch revising_strings.js
                     - javascripting -l ko
                     - javascripting select revising_strings
                     - bash
@@ -261,6 +266,7 @@ exercises:
                     - javascripting select numbers
                     - javascripting verify numbers.js
                 cmd:
+                    - touch numbers.js
                     - javascripting -l ko
                     - javascripting select numbers
                     - bash
@@ -290,6 +296,7 @@ exercises:
                     - javascripting select rounding_numbers
                     - javascripting verify rounding-numbers.js
                 cmd:
+                    - touch rounding_numbers.js
                     - javascripting -l ko
                     - javascripting select rounding_numbers
                     - bash
