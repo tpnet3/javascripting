@@ -8,7 +8,7 @@ install:
 copy: 
     - README.md
 
-introduction:
+information:
     title: JAVASCRIPTING
 
 exercises:
