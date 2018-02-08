@@ -17,9 +17,14 @@ exercises:
                 active:
                     - introduction.js
                 run:
+                    - javascripting select introduction
                     - javascripting run introduction.js
                 test:
+                    - javascripting select introduction
                     - javascripting verify introduction.js
+                cmd:
+                    - javascripting -l ko
+                    - javascripting select introduction
                 guide: |
                     편집기에서 introduction.js 파일을 열고 다음 내용을 넣으세요.
 
@@ -33,9 +38,14 @@ exercises:
                 active:
                     - variables.js
                 run:
+                    - javascripting select variables
                     - javascripting run variables.js
                 test:
+                    - javascripting select variables
                     - javascripting verify variables.js
+                cmd:
+                    - javascripting -l ko
+                    - javascripting select variables
                 guide: |
                     변수는 특정 값을 참조하는 이름입니다. 변수는 var와 변수의 이름으로  
                     선언합니다.  
