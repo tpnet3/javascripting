@@ -10,7 +10,7 @@ copy:
 
 exercises:
     -
-        section: javascripting
+        section: 출력과 변수
         lecture:
             -
                 subject: 소개
@@ -123,6 +123,9 @@ exercises:
                     이 명령어를 실행해 프로그램이 올바른지 확인하세요.
 
                     `javascripting verify variables.js`
+    -
+        section: 문자열
+        lecture:
             -
                 subject: 문자열
                 active:
@@ -255,6 +258,9 @@ exercises:
                     이 명령어를 실행해 프로그램이 올바른지 확인하세요.
 
                     `javascripting verify revising-strings.js`
+    -
+        section: 숫자
+        lecture:
             -
                 subject: 숫자
                 active:
@@ -370,6 +376,9 @@ exercises:
                     ```bash
                     javascripting verify number-to-string.js
                     ```
+    -
+        section: 표현식
+        lecture:
             -
                 subject: IF 구문
                 active:
@@ -472,6 +481,9 @@ exercises:
                     ```bash
                     javascripting verify for-loop.js
                     ```
+    -
+        section: 배열
+        lecture:
             -
                 subject: 배열
                 active:
@@ -692,6 +704,9 @@ exercises:
                     ```bash
                     javascripting verify looping-through-arrays.js
                     ```
+    -
+        section: 객체
+        lecture:
             -
                 subject: 객체
                 active:
@@ -799,6 +814,9 @@ exercises:
                     ```bash
                     javascripting verify object-properties.js
                     ```
+    -
+        section: 함수
+        lecture:
             -
                 subject: 함수
                 active:
@@ -904,6 +922,9 @@ exercises:
                     ```bash
                     javascripting verify function-arguments.js
                     ```
+    -
+        section: 스코프
+        lecture:
             -
                 subject: 스코프
                 active:
