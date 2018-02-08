@@ -27,7 +27,7 @@ exercises:
                     - javascripting select introduction
                     - bash
                 guide: |
-                    편집기에서 파일을 열고 다음 내용을 넣으세요.
+                    편집기에서 `introduction.js` 파일을 열고 다음 내용을 넣으세요.
 
                     ```js
                     console.log('hello');
@@ -71,9 +71,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `variables.js`라는 파일을 만듭니다.
-
-                    그 파일 안에서 `example`라는 변수를 선언합니다.
+                    `variables.js`라는 파일에 `example`라는 변수를 선언합니다.
 
                     **`example` 변수를 `'some string'` 값과 같게 만듭니다.**
                     **Make the variable `example` equal to the value `'some string'`.**
@@ -115,9 +113,7 @@ exercises:
 
                     ## 도전 과제
 
-                    이 과제를 위해 `strings.js`라는 파일을 만드세요.
-
-                    그 파일 안에서 `someString`이라는 변수를 만드세요. 이렇게 하면 됩니다.
+                    `strings.js`라는 파일에 `someString`이라는 변수를 만드세요. 이렇게 하면 됩니다.
 
                     ```js
                     var someString = 'this is a string';
@@ -158,9 +154,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `string-length.js`라는 파일을 만듭니다.
-
-                    이 파일 안에서 `example`이라는 변수를 선언합니다.
+                    `string-length.js`라는 파일에 `example`이라는 변수를 선언합니다.
 
                     **`example` 변수에 `'example string'` 문자열을 대입합니다.**
 
@@ -198,9 +192,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `revising-strings.js`라는 파일을 만드세요.
-
-                    `'pizza is alright'` 문자열을 참조하는 `pizza`라는 변수를 정의합니다.
+                    `revising-strings.js`라는 파일에 `'pizza is alright'` 문자열을 참조하는 `pizza`라는 변수를 정의합니다.
 
                     `.replace()` 메소드를 사용해 `alright`을 `wonderful`로 바꿉니다.
 
@@ -230,9 +222,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `numbers.js`라는 파일을 만드세요.
-
-                    그 파일 안에서 정수 `123456789`를 참조하는 `example`이라는 변수를 선언하세요.
+                    `numbers.js`라는 파일에 정수 `123456789`를 참조하는 `example`이라는 변수를 선언하세요.
 
                     `console.log()`를 사용해 숫자를 터미널에 출력하세요.
 
@@ -260,9 +250,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `rounding-numbers.js`라는 파일을 만듭니다.
-
-                    이 파일 안에서 실수 `1.5`를 참조하는 `roundUp`라는 변수를 선언합니다.
+                    `rounding-numbers.js`라는 파일에 실수 `1.5`를 참조하는 `roundUp`라는 변수를 선언합니다.
 
                     `Math.round()` 메소드를 이용해 숫자를 반올림합니다. 이 메소드는 숫자를 가까운 정수로 올리거나 내립니다.
 
@@ -303,9 +291,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `number-to-string.js`라는 파일을 만듭니다.
-
-                    그 파일 안에서 숫자 `128`을 참조하는 `n`이라는 이름의 변수를 선언합니다.
+                    `number-to-string.js`라는 파일에 숫자 `128`을 참조하는 `n`이라는 이름의 변수를 선언합니다.
 
                     `n` 변수에 `.toString()` 메소드를 호출합니다.
 
@@ -348,9 +334,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `if-statement.js`라는 파일을 만듭니다.
-
-                    이 파일 안에서, `fruit`라는 이름의 변수를 선언합니다.
+                    `if-statement.js`라는 파일에 `fruit`라는 이름의 변수를 선언합니다.
 
                     `fruit` 변수가 문자열 타입의 **orange**라는 값을 참조하도록 하세요.
 
@@ -390,9 +374,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `for-loop.js`라는 파일을 만듭니다.
-
-                    그 파일 안에서 `total`이라는 변수를 선언하고 그 변수를 숫자 `0`과 같게 합니다.
+                    `for-loop.js`라는 파일에 `total`이라는 변수를 선언하고 그 변수를 숫자 `0`과 같게 합니다.
 
                     `limit`이라는 이름의 두 번째 변수를 선언하고 숫자 `10`과 같게 합니다.
 
@@ -433,9 +415,7 @@ exercises:
 
                     ### 도전 과제
 
-                    `arrays.js`라는 이름의 파일을 만듭니다.
-
-                    이 파일에 `tomato sauce, cheese, pepperoni`의 순서대로 세 개의 문자열을 포함하는 배열을 참조하도록 `pizzaToppings`라는 변수를 선언합니다.
+                    `arrays.js`라는 이름의 파일에 `tomato sauce, cheese, pepperoni`의 순서대로 세 개의 문자열을 포함하는 배열을 참조하도록 `pizzaToppings`라는 변수를 선언합니다.
 
                     `console.log()`를 사용해 `pizzaToppings` 배열을 터미널에 출력합니다.
 
@@ -475,9 +455,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `array-filtering.js`라는 이름의 파일을 만듭니다.
-
-                    이 파일에 밑의 배열을 참조하는 `numbers`라는 변수를 정의합니다.
+                    `array-filtering.js`라는 이름의 파일에 밑의 배열을 참조하는 `numbers`라는 변수를 정의합니다.
 
                     ```js
                     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -543,9 +521,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `accessing-array-values.js`라는 이름의 파일을 만듭니다.
-
-                    그 파일에서, `food`라는 배열을 정의합니다.
+                    `accessing-array-values.js`라는 이름의 파일에 `food`라는 배열을 정의합니다.
                     ```js
                     var food = ['apple', 'pizza', 'pear'];
                     ```
@@ -591,9 +567,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `looping-through-arrays.js`라는 파일을 만듭니다.
-
-                    이 파일 안에서 다음 배열을 참조하는 `pets`라는 이름의 변수를 선언합니다.
+                    `looping-through-arrays.js`라는 파일에 다음 배열을 참조하는 `pets`라는 이름의 변수를 선언합니다.
 
                     ```js
                     ['cat', 'dog', 'rat'];
@@ -641,9 +615,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `objects.js`라는 파일을 만듭니다.
-
-                    파일 안에서 이렇게 `pizza`라는 변수를 정의합니다.
+                    `objects.js`라는 파일에 이렇게 `pizza`라는 변수를 정의합니다.
 
                     ```js
                     var pizza = {
@@ -697,9 +669,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `object-properties.js`라는 파일을 만듭니다.
-
-                    파일 안에서 `food`라는 변수를 이렇게 정의합니다.
+                    `object-properties.js`라는 파일에 `food`라는 변수를 이렇게 정의합니다.
 
                     ```js
                     var food = {
@@ -748,9 +718,7 @@ exercises:
 
                     ## 도전 과제
 
-                    `functions.js`라는 파일을 만듭니다.
-
-                    그 파일에서 `food`를 인자로 받는 `eat` 함수를 선언합니다. `food`는 문자열이어야 합니다.
+                    `functions.js`라는 파일에 `food`를 인자로 받는 `eat` 함수를 선언합니다. `food`는 문자열이어야 합니다.
 
                     함수 안에서 `food` 인자를 이렇게 반환합니다.
 
@@ -796,10 +764,9 @@ exercises:
 
                     ## 도전 과제
 
-                    `function-arguments.js`라는 이름의 파일을 만듭니다..
-
-                    이 파일에서는 3개의 인자를 받는 `math`라는 이름의 함수를 선언합니다. 인자 이름은
-                    참조로만 사용한다는 것을 이해하는 것은 중요합니다.
+                    `function-arguments.js`라는 이름의 파일에 3개의 인자를 받는 `math`라는 이름의 함수를 선언합니다.
+                    
+                    인자 이름은 참조로만 사용한다는 것을 이해하는 것은 중요합니다.
 
                     인자들에는 편한 이름을 지으세요.
 
@@ -861,9 +828,7 @@ exercises:
                     ```
                     ## 도전 과제:
 
-                    `scope.js`라는 파일을 만듭니다.
-
-                    이 파일에 다음 코드를 복사합니다.
+                    `scope.js`라는 파일에 다음 코드를 복사합니다.
                     ```js
                     var a = 1, b = 2, c = 3;
 
