@@ -8,6 +8,9 @@ install:
 copy: 
     - README.md
 
+introduction:
+    title: JAVASCRIPTING
+
 exercises:
     -
         section: 출력과 변수
