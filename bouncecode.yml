@@ -18,7 +18,7 @@ exercises:
                     - introduction.js
                 run:
                     - javascripting run introduction.js
-                run:
+                test:
                     - javascripting verify introduction.js
                 guide: |
                     편집기에서 introduction.js 파일을 열고 다음 내용을 넣으세요.
@@ -34,7 +34,7 @@ exercises:
                     - variables.js
                 run:
                     - javascripting run variables.js
-                run:
+                test:
                     - javascripting verify variables.js
                 guide: |
                     변수는 특정 값을 참조하는 이름입니다. 변수는 var와 변수의 이름으로  
